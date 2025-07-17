@@ -9,7 +9,7 @@ hide:
 }
 </style>
 
-![jsonrpcserver](images/logo.png)
+![jsonrpcserver](assets/logo.png)
 
 _Process incoming JSON-RPC requests in Python._
 

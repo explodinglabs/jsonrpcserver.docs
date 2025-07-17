@@ -1,5 +1,5 @@
 site_name: jsonrpcserver
-site_url: https://explodinglabs.com/jsonrpcserver/
+site_url: https://www.explodinglabs.com/jsonrpcserver/
 repo_url: https://github.com/explodinglabs/jsonrpcserver
 theme:
   name: material
@@ -30,6 +30,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+extra_css:
+  - assets/extra.css
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
