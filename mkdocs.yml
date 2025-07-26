@@ -1,8 +1,9 @@
 site_name: jsonrpcserver
-site_url: https://www.explodinglabs.com/jsonrpcserver/
+site_url: https://explodinglabs.com/jsonrpcserver/
 repo_url: https://github.com/explodinglabs/jsonrpcserver
 theme:
   name: material
+  logo: assets/logo.png
   features:
     - navigation.footer
     - palette.toggle
@@ -10,7 +11,8 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
-      primary: pink
+      scheme: default
+      primary: "pink"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
@@ -18,7 +20,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: "pink"
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -26,10 +28,12 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
+      primary: "pink"
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+plugins:
+  - search
 extra_css:
   - assets/extra.css
 markdown_extensions:

@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 <style>
 .md-content__inner h1:first-of-type {
   display: none;
@@ -14,7 +9,7 @@ hide:
 _Process incoming JSON-RPC requests in Python._
 
 Jump to:
-[GitHub](https://github.com/explodinglabs/jsonrpcserver) | [Community Wiki](https://github.com/explodinglabs/jsonrpcserver/wiki)
+[GitHub](https://github.com/explodinglabs/jsonrpcserver) | [Developer Wiki](https://github.com/explodinglabs/jsonrpcserver/wiki)
 
 ## Documentation
 

@@ -26,7 +26,7 @@ since there's no http body, use status code 204 - no content.
 Use `@method(name="new_name")`.
 
 Or use the dispatch function's [methods
-parameter](https://www.explodinglabs.com/jsonrpcserver/dispatch/#methods).
+parameter](https://explodinglabs.com/jsonrpcserver/dispatch/#methods).
 
 ## How to get the response in other forms?
 
