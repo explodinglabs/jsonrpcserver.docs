@@ -9,11 +9,15 @@
 _Process incoming JSON-RPC requests in Python._
 
 Jump to:
-[GitHub](https://github.com/explodinglabs/jsonrpcserver) | [Developer Wiki](https://github.com/explodinglabs/jsonrpcserver/wiki)
+[GitHub](https://github.com/explodinglabs/jsonrpcserver) |
+[Developer Wiki](https://github.com/explodinglabs/jsonrpcserver/wiki)
+
+```sh
+pip install jsonrpcserver
+```
 
 ## Documentation
 
-- [Installation](installation.md)
 - [Methods](methods.md)
 - [Dispatch](dispatch.md)
 - [Async](async.md)
